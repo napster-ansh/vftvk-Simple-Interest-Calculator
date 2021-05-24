@@ -17,7 +17,7 @@ function compute() {
     else{ 
     // Validation showing alert if input is either zero or a negative number
         alert("Enter a positive number");
-        principal.focus();
+        document.getElementById("principal").focus();
         return false;
     
       } 
